@@ -1,0 +1,330 @@
+/*********************************************************/
+/*	File: style.css
+/*	Author: Daniel Silva
+/*   Author URL: 
+/*	
+/*	Created: 
+/*	Last Update: 
+/*
+/*********************************************************/
+
+
+
+/*********************************************************/
+/*
+/*	Table of index
+/*
+/*	1. GENERAL
+/*	2. HEADER & MENU
+/*	3. BUTTONS
+/*	4. LIVEVALIDATION
+/*	5. CONTENT
+/*	6. FOOTER
+/*	7. TABLESORTER
+/*	8. FACEBOOKSTYLE SEARCH
+/*	9. LYTEBOX
+/* 10. RIDERS SCROLLER
+/* 11. RANKING TABLE SORTER
+/*
+/*********************************************************/
+
+/*********************************************************/
+/*
+/*	1. GENERAL
+/*
+/*********************************************************/
+*{
+	margin:0;
+	padding:0;
+	}
+
+h1 { font: bold 2.8em Arial, "Lucia Grande", Tahoma, sans-serif; color: #444; }
+h2 { font: normal 1.7em Arial, "Lucia Grande", Tahoma, sans-serif; margin: 0 0 10px; padding: 0 0 3px; color: #333; border-bottom: 1px solid #eee; }
+h3 { font: bold 1.2em Arial, "Lucia Grande", Tahoma, sans-serif; color: #666; }
+h4 { font: normal 1.5em Arial, "Lucia Grande", Tahoma, sans-serif; margin: 0 0 0px; padding: 0 0 0px; color: #333; border-top: 1px solid #999; }
+h5 { font: normal 1.7em Arial, "Lucia Grande", Tahoma, sans-serif; margin: 0 0 10px; padding: 0 0 3px; color: #333; border-bottom: 1px solid #EB0000; }
+h6 { font: normal 1.3em Arial, "Lucia Grande", Tahoma, sans-serif; margin: 0px; padding: 5px 0 0 0 ; color: #666; letter-spacing: -.5px; line-height: 16px; }
+h7 { font: normal 1.5em Arial, "Lucia Grande", Tahoma, sans-serif; margin: 0px; padding: 0px; color: #999; letter-spacing: -.9px; line-height: 18px; }
+
+a{
+	text-decoration:none;
+	color:#0000FF;
+	}
+a:hover {
+	color:#444 ; 
+	text-decoration: underline; 
+	}
+input {
+	border:#CCCCCC solid 1px; 
+	padding:4px; 
+	width: auto;
+	}	
+textarea {
+	border:#CCCCCC solid 1px; padding:4px;}
+div {
+	display:block;}
+
+td{
+	display: table-cell;
+	vertical-align: inherit;
+	padding:0px;
+}	
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
+	
+body{
+background-color:#dddddd;
+font: .8em Arial, "Lucia Grande", Tahoma, sans-serif;
+line-height: 1.6em;
+}
+
+section#interface_popup{
+	width:550px;
+	height:auto;
+	background-color:#ffffff;
+	margin: 20px auto 20px auto;
+	padding:10px;
+	box-shadow: 0px 0px 10px blue;
+}
+section#interface{
+	width:1100px;
+	height:auto;
+	background-color:#ffffff;
+	margin: 10px auto 30px auto;
+	padding:10px;
+	box-shadow: 0px 0px 10px blue;
+}
+span {
+	float:top;
+}
+
+textarea{
+	vertical-align:top;
+}
+/*********************************************************/
+/*
+/*	3. HEADER & MENU
+/*
+/*********************************************************/
+
+header#header{
+	width:1100px;
+	height:250px;
+	background-color:#ffffff;
+}
+
+header#header div#cabecalho{
+	width:1070px;
+	height:200px;
+	background-color:#ffffff;
+	margin: 10px;
+}
+
+.caption{
+	padding:2px 0 0 18px;
+	height:35px;
+	background:url(../CSS/img/titulo_login.gif) no-repeat;
+	color:#fff;
+	}
+.box {
+	background: #eeeeee;
+	padding: 10px;
+	height: auto;
+	-moz-border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 15px 15px;
+
+}
+
+#logo{
+	padding:250px 0px 0px 550px;
+	float:left;
+	background:url(../CSS/img/brslogo.JPG) no-repeat center;
+}
+#login {
+	width: 250px;
+	margin: 30px 15px 0 0;
+	float:right;
+	}
+
+#menu {
+	float: right;
+	padding:10px;
+	margin:-20px 50px 30px 10px;
+	right:2px;
+}
+
+ul{ 
+	list-style:none;
+}
+
+li{
+	display: inline;
+	font-size:15px;
+}
+
+#menu a{
+	float: left;
+	width: 140px;
+	padding: 4px 0 5px;
+	text-align: center;
+	text-decoration:none;
+	margin: 2px 0 0 15px;
+	color: #636365;
+	background:url(../CSS/img/botao_menu.gif) no-repeat;
+}
+#menu a:hover{
+	width: 140px;
+	padding: 4px 0 5px;
+	text-align: center;
+	text-decoration:none;
+	margin: 2px 0 0 15px;
+	color: #fff;
+	background:url(../CSS/img/botao_menu_corrente.gif) no-repeat;
+	}
+/*********************************************************/
+/*
+/*	3. BODY_POPUP
+/*
+/*********************************************************/
+section#body{
+	width:1000px;
+	height:auto;
+	margin: 0px 10px 30px 0px;
+}
+
+section#body_popup{
+	width:550px;
+	height:auto;
+	margin: 0px 10px 30px 0px;
+}
+
+#menuadm {
+	padding:10px;
+	margin:-20px 50px 30px 35px;
+	background-color:#F5F5F5;
+	color:#fff;
+	link;
+}
+
+div#foto_edit{
+	height:200px;
+	width:200px;
+	padding:1px;
+	border:2px#333 solid;
+	margin-left:320px;
+	position:absolute;
+}
+
+div#foto_edit_evt{
+	height:160px;
+	width:160px;
+	padding:1px;
+	border:2px#333 solid;
+	margin-left:320px;
+	position:absolute;
+}
+
+table#tab_pesq, tr, td, th{
+	padding:2px;
+}
+th{
+		background-color:#708090;
+		text-align: center;
+		color:#fff;
+}
+
+/*********************************************************/
+/*
+/*	4. BOTONS FORM
+/*
+/*********************************************************/
+.botao{
+	float: left;
+	width: 140px;
+	padding: 4px 0 5px;
+	text-align: center;
+	text-decoration:none;
+	margin: 2px 0 0 15px;
+	color: #636365;
+	border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+	background:url(../CSS/img/botao_menu.gif) no-repeat;
+}
+.botao:hover{
+	float: left;
+	width: 140px;
+	padding: 4px 0 5px;
+	text-align: center;
+	text-decoration:none;
+	margin: 2px 0 0 15px;
+	color: white;
+	border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;
+	background:url(../CSS/img/botao_menu_corrente.gif) no-repeat;
+	}
+
+.botao_link{
+	background-color:#F0FFFF;
+	text-align: center;
+	color:#000080;
+	}
+/*********************************************************/
+/*
+/*	4. FOOTER
+/*
+/*********************************************************/
+
+
+#footer { 
+	font-size: .84em; 
+	background: #eee; 
+	width: 100%; 
+	border-top: #CCC 1px solid; 
+	height:50px; 
+	position: fixed; 
+	bottom: 0px;
+	color:#444;
+	}
+
+#footer a {
+	color: #444; 
+	text-decoration:none;
+	}
+		  
+#footer a:hover{
+	text-decoration:underline;
+	}
+
+#footer li{
+	display: inline; 
+	padding: 10px 15px;
+	border-style:none;
+	}
+
+.foot_list{
+	left:700px;
+	top:5px;
+	}
+
+.left_footer{
+	float:left; 
+	padding:20px 0 15px 100px;
+	}
+.right_footer{
+	float:right; 
+	padding:20px 100px 15px 0
+	}
+
+.facebook a {
+	padding: 0 0 0 30px;
+	}
+.facebook {
+	background: url("../img/facebook2.png") no-repeat;
+	}
+.facebook:hover {
+	background: url("../img/facebook.png") no-repeat;
+	}
+
+

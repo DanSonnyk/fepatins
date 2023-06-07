@@ -1,0 +1,26 @@
+<html>
+<head>
+	<script language="JavaScript">
+		function filtroEvt(){	
+			var nivel = document.getElementById('nivel_id').value;
+			alert(nivel);
+		}
+	</script>
+</head>
+<body>
+
+	Nivel:
+								<br>
+								<form id="evt_ftrnivel" method="get" action="#">
+								<select class="filtro" name="nivel" id="nivel_id" onchange="filtroEvt()">
+								<option value="1">TODOS</option>
+								<option value="2">2 Estrelas</option>
+								<option value="3">3 Estrelas</option>
+								<option value="4">4 Estrelas</option>
+								<option value="5">5 Estrelas</option>
+								</select>
+								</form>
+								<br>
+
+</body>
+</html>
